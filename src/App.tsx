@@ -1,17 +1,13 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import {
   Mail,
   Phone,
   MapPin,
-  ExternalLink,
   Code2,
-  Terminal,
   Database,
-  Cpu,
   BrainCircuit,
   GraduationCap,
-  Award,
-  Briefcase
+  Award
 } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }: { size?: number }) => (
@@ -36,7 +32,7 @@ function App() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-fade-in-up');
-            entry.target.style.opacity = '1';
+            (entry.target as HTMLElement).style.opacity = '1';
           }
         });
       },
