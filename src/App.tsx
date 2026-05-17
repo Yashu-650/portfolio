@@ -52,6 +52,7 @@ function App() {
         <div className="container nav-container">
           <div className="logo text-gradient"></div>
           <div className="nav-links">
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
