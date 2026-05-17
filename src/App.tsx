@@ -234,7 +234,7 @@ function App() {
             </div>
 
             <div className="glass-panel project-card animate-on-scroll delay-3">
-              <h3 className="project-title">3D Glassmorphism Portfolio</h3>
+              <h3 className="project-title">Professional Personal Portfolio</h3>
               <div className="project-tags">
                 <span className="badge">React</span>
                 <span className="badge">TypeScript</span>
@@ -243,9 +243,9 @@ function App() {
               </div>
               <div className="project-desc">
                 <ul style={{ paddingLeft: '1.5rem', marginTop: '1rem' }}>
-                  <li style={{ marginBottom: '0.8rem' }}>Designed and developed a fully responsive, high-performance personal portfolio using modern web technologies.</li>
-                  <li style={{ marginBottom: '0.8rem' }}>Engineered an advanced, custom Black & Red 3D Glassmorphism design system using pure CSS, featuring dynamic light refraction and tactile neumorphic interactions.</li>
-                  <li>Optimized performance and accessibility with modular React components, strict TypeScript typing, and smooth scrolling architecture.</li>
+                  <li style={{ marginBottom: '0.8rem' }}>Designed and developed a fully responsive, high-performance personal portfolio to showcase technical projects and professional experience.</li>
+                  <li style={{ marginBottom: '0.8rem' }}>Engineered a custom Black & Red 3D Glassmorphism design system using pure CSS, creating a premium and highly interactive user experience.</li>
+                  <li>Optimized performance and accessibility with modular React components, strict TypeScript typing, and a smooth-scrolling architecture.</li>
                 </ul>
               </div>
               <a href="https://github.com/Yashu-650/portfolio" target="_blank" rel="noreferrer" className="btn btn-outline" style={{ marginTop: 'auto', alignSelf: 'flex-start' }}>
